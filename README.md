@@ -43,9 +43,13 @@ First attach the Picam, and enable it with raspi-config
 Install the dependencies:
 
 sudo apt-get install python3-opencv
+
 sudo apt-get install python-dev libatlas-base-dev
+
 pip3 install scipy
+
 pip3 install peakutils
+
 
 Run the program with: python3 pyspectrometer-v1.py
 
