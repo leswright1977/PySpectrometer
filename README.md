@@ -84,6 +84,7 @@ Measuring the wavelength of a cheap red laser pointer (661nm)
 ![Screenshot](media/pointer.png)
 
 Measuring the wavelength of a cheap violet Laser pointer, note the strong fluorescence from the paper! 
+
 Also note the wavelength is 8nm out, due to misalignment.
 ![Screenshot](media/uv.png)
 
