@@ -1,2 +1,7 @@
-# Pi_Sprectrometer
-Raspberry Pi Spectrometer
+# Pi_Spectrometer
+
+***Raspberry Pi Spectrometer***
+
+![Screenshot](media/scope.png)
+
+
