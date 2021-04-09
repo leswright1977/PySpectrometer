@@ -37,7 +37,9 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 
 Developed and tested on: 2021-01-11-raspios-buster-armhf-full.img for anything else your milage may vary!
 
-Rasberry pi 4 Recommended.
+Rasberry pi 4 and PiCamera Recommended. 
+
+(Note the software uses the Linux Video Driver, not the Picam Python module. As a consequence it is camera agnotstic, so it will work with some webcams on probably any Linux box) 
 
 First attach the Picam, and enable it with raspi-config
 
