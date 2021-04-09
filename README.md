@@ -63,6 +63,16 @@ Click the two peaks on the graph, and in each of the boxes enter the correspondi
 
 Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xeonon for other types) That will be an excercise for you! If you are feeling particularly adventurous, you coudl calibrate with plain daylight (do NOT poin it at the Sun!) and use the fraunhofer lines to perform your calibration!
 
+***Other settings***
+
+Label Peak width and Labe threshold set the width of a peak to label, and the level to consider it a peak respectively. The Defaults ae fine, but if you find the graph too cluttered, you can play with these values.
+
+Snapshot, takes a snapshot of the graph section like this:
+![Screenshot](media/spectrum-09-04-2021-15:19:27.jpg)
+
+
+***Example Spectra***
+
 Here is an example of the spectra of a fluorescent bulb (there is slight non linearity toward the blue)
 ![Screenshot](media/fluorescent.png)
 
