@@ -56,6 +56,20 @@ Click the two peaks on the graph, and in each of the boxes enter the correspondi
 
 ![Screenshot](media/calib.png)
 
+Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xeonon for other types) That will be an excercise for you! If you are feeling particularly adventurous, you coudl calibrate with plain daylight (do NOT poin it at the Sun!) and use the fraunhofer lines to perform your calibration!
+
+Here is an example of the spectra of a fluorescent bulb (there is slight non linearity toward the blue)
+![Screenshot](media/fluorescent.png)
+
+Measuring the wavelength of a cheap red laser pointer (661nm)
+![Screenshot](media/pointer.png)
+
+Measuring the wavelength of a cheap violet Laser pointer, note the strong fluorescence from the paper!
+![Screenshot](media/uv.png)
+
+The spectra of Daylight (pointed out of the window at a blue sky)
+![Screenshot](media/daylight.png)
+
 
 
 
