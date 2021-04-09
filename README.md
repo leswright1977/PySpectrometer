@@ -14,7 +14,7 @@ This program and assiciated information is free for non-commercial use, but if y
 
 ***TODO***
 
-(Maybe) Impement suitable 3 wavelength Calibrtion protocol to compensate for non linearity caused by poor alignment
+(Maybe) Impement suitable 3 wavelength Calibration protocol to compensate for non linearity caused by poor alignment
 
 
 ***Hardware***
