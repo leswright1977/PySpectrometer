@@ -67,7 +67,7 @@ Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) 
 
 ***Other settings***
 
-Label Peak width and Labe threshold set the width of a peak to label, and the level to consider it a peak respectively. The Defaults ae fine, but if you find the graph too cluttered, you can play with these values.
+"Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults ae fine, but if you find the graph too cluttered, you can play with these values.
 
 Snapshot, takes a snapshot of the graph section like this:
 ![Screenshot](media/spectrum-09-04-2021-15:19:27.jpg)
