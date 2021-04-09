@@ -57,13 +57,15 @@ pip3 install peakutils
 Run the program with: python3 pyspectrometer-v1.py
 
 
-To calibrate, shine 2 Lasers of known wavelength (He-Ne, Argon or DPSS recommended! (Diode Lasers have wavelengths that can be +/- 10nm!)) at a piece of card in front of the spectrometer.
+To calibrate, shine 2 Lasers of known wavelength (He-Ne, Argon or DPSS recommended! (Diode Lasers can have wavelengths that can be +/- 10nm!)) at a piece of card in front of the spectrometer.
 
 Click the two peaks on the graph, and in each of the boxes enter the corresponding wavelength. Then hit 'Calibrate'. In this example I have Calibrated with 532nm (DPSS) and 633nm He-Ne. The Scale and lablels will then adjust to match your values.
 
+For good accuracy make sure your wavelengths are quite far apart, ideally one at the red end and one at the blue end
+
 ![Screenshot](media/calib.png)
 
-Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xeonon for other types) That will be an excercise for you! If you are feeling particularly adventurous, you coudl calibrate with plain daylight (do NOT poin it at the Sun!) and use the fraunhofer lines to perform your calibration!
+Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xeonon for other types) That will be an excercise for you! If you are feeling particularly adventurous, you could calibrate with plain daylight (do NOT point it at the Sun!) and use the fraunhofer lines to perform your calibration!
 
 ***Other settings***
 
