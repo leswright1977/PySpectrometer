@@ -77,15 +77,14 @@ Snapshot, takes a snapshot of the graph section like this:
 
 ***Example Spectra***
 
-Here is an example of the spectra of a fluorescent bulb (there is slight non linearity toward the blue)
+Here is an example of the spectra of a fluorescent bulb.
 ![Screenshot](media/fluorescent.png)
 
 Measuring the wavelength of a cheap red laser pointer (661nm)
 ![Screenshot](media/pointer.png)
 
-Measuring the wavelength of a cheap violet Laser pointer, note the strong fluorescence from the paper! Paper is optically brightened with a fluorescent dyes.Most likely Coumarin.
+Measuring the wavelength of a cheap violet Laser pointer, note the strong fluorescence from the paper! Paper is optically brightened with a fluorescent dyes, most likely Coumarin.
 
-Also note the wavelength is 8nm out, due to misalignment.
 ![Screenshot](media/uv.png)
 
 The spectra of Daylight (pointed out of the window at a blue sky)
