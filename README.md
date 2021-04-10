@@ -26,11 +26,14 @@ This program and assiciated information is free for non-commercial use, but if y
 
 The harware consists of: 
 
-A commercial Diffraction grating Spectroscope
+***A commercial Diffraction grating Spectroscope***
+https://www.patonhawksley.com/product-page/benchtop-spectroscope
 
-A Raspberry Pi Camera (with an M12 Thread)
+***A Raspberry Pi Camera (with an M12 Thread)***
+https://thepihut.com/products/raspberry-pi-camera-adjustable-focus-5mp
 
-A CCTV Lens with Zoom (M12 Thread)
+***A CCTV Lens with Zoom (M12 Thread)*** 
+(Search eBay for F1.6 zoom lens)
 
 Everything is assembled on an aluminium base (note the Camera is not cooled, the heatsink was a conveniently sized piece of aluminium.
 
