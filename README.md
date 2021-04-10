@@ -8,6 +8,9 @@ The PySpectrometer is a Python implementation of an optical spectrometer. The mo
 
 The hardware is simple and widely avilable and so should be easily to duplicate without critical alignment or difficult construction. The hard work was developing the software.
 
+Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for the price of the hardware, especially when you consider the price of commercial components such as the Hamamatsu C12880MA breakout boards which run north of 300 bucks, and has a resolution of 15nm. Of course, this is much larger!
+
+
 Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 This program and assiciated information is free for non-commercial use, but if you have gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB
