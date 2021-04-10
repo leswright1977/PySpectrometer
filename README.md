@@ -24,7 +24,7 @@ This program and assiciated information is free for non-commercial use, but if y
 
 ![Screenshot](media/scope.png)
 
-The harware consists of: 
+The hardware consists of: 
 
 ***A commercial Diffraction grating Spectroscope***
 https://www.patonhawksley.com/product-page/benchtop-spectroscope
