@@ -83,7 +83,8 @@ Snapshot, takes a snapshot of the graph section like this:
 
 ***Example Spectra***
 
-Here is an example of the spectra of a fluorescent bulb. The peaks at 405,435,545,650 are Mercury, Europium (one of the lamp phosphors) is visible at ~610nm
+Here is an example of the spectra of a fluorescent bulb. The peaks at 405,435,545,650 are Mercury, Europium (one of the lamp phosphors) is visible at ~610nm.
+
 ![Screenshot](media/fluorescent.png)
 
 Measuring the wavelength of a cheap red laser pointer (661nm)
