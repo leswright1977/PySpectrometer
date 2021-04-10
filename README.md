@@ -71,7 +71,7 @@ For good accuracy make sure your wavelengths are quite far apart, ideally one at
 
 ![Screenshot](media/calib.png)
 
-Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xenon for other types) That will be an excercise for you! If you are feeling particularly adventurous, you could calibrate with plain daylight (do NOT point it at the Sun!) and use the fraunhofer lines to perform your calibration!
+Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xenon for other types) That will be an excercise for you!
 
 ***Other settings***
 
