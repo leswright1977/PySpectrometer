@@ -8,7 +8,7 @@ The PySpectrometer is a Python implementation of an optical spectrometer. The mo
 
 The hardware is simple and widely avilable and so should be easily to duplicate without critical alignment or difficult construction. The hard work was developing the software.
 
-Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for the price of the hardware, especially when you consider the price of commercial components such as the Hamamatsu C12880MA breakout boards which run north of 300 bucks, and has a resolution of 15nm. Of course, this is much larger!
+Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for the price of the hardware, especially when you consider the price of commercial components such as the Hamamatsu C12880MA breakout boards which run north of 300 bucks, and has a resolution of 15nm. Of course, this is much larger, but not enormous!
 
 
 Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
@@ -72,7 +72,7 @@ Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) 
 
 ***Other settings***
 
-"Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults ae fine, but if you find the graph too cluttered, you can play with these values.
+"Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults are fine, but if you find the graph too cluttered, you can play with these values.
 
 Snapshot, takes a snapshot of the graph section like this:
 ![Screenshot](media/spectrum-09-04-2021-15:19:27.jpg)
@@ -80,7 +80,7 @@ Snapshot, takes a snapshot of the graph section like this:
 
 ***Example Spectra***
 
-Here is an example of the spectra of a fluorescent bulb.
+Here is an example of the spectra of a fluorescent bulb. The peaks at 405,435,545,650 are Mercury, Europium (one of the lamp phosphors) is visible at ~610nm
 ![Screenshot](media/fluorescent.png)
 
 Measuring the wavelength of a cheap red laser pointer (661nm)
