@@ -95,6 +95,7 @@ Measuring the wavelength of a cheap violet Laser pointer, note the strong fluore
 The spectra of Daylight (pointed out of the window at a blue sky)
 ![Screenshot](media/daylight.png)
 
+
 The spectra of of a Helium-Neon Discharge
 ![Screenshot](media/henespectrum.png)
 
