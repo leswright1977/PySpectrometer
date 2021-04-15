@@ -95,13 +95,13 @@ Measuring the wavelength of a cheap violet Laser pointer, note the strong fluore
 The spectra of Daylight (pointed out of the window at a blue sky)
 ![Screenshot](media/daylight.png)
 
-***TODO***
-
-Done! Add a slider to control smoothing. See pyspectrometer-v2.py
-
 The spectra of of a Helium-Neon Discharge
 ![Screenshot](media/henespectrum.png)
 
+
+***TODO***
+
+Done! Add a slider to control smoothing. See pyspectrometer-v2.py
 
 
 
