@@ -15,10 +15,6 @@ Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 This program and assiciated information is free for non-commercial use, but if you have gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB
 
-***TODO***
-
-(Maybe) Add a slider to control smoothing.
-
 
 ***Hardware***
 
@@ -99,8 +95,12 @@ Measuring the wavelength of a cheap violet Laser pointer, note the strong fluore
 The spectra of Daylight (pointed out of the window at a blue sky)
 ![Screenshot](media/daylight.png)
 
+***TODO***
 
+Done! Add a slider to control smoothing. See pyspectrometer-v2.py
 
+The spectra of of a Helium-Neon Discharge
+![Screenshot](media/henespectrum.png)
 
 
 
