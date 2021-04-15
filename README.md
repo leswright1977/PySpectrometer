@@ -97,6 +97,7 @@ The spectra of Daylight (pointed out of the window at a blue sky)
 
 
 The spectra of of a Helium-Neon Discharge
+
 ![Screenshot](media/henespectrum.png)
 
 
