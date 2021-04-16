@@ -31,7 +31,7 @@ https://thepihut.com/products/raspberry-pi-camera-adjustable-focus-5mp
 ***A CCTV Lens with Zoom (M12 Thread)*** 
 (Search eBay for F1.6 zoom lens)
 
-Everything is assembled on an aluminium base (note the Camera is not cooled, the heatsink was a conveniently sized piece of aluminium.
+Everything is assembled on an aluminium base (note the Camera is not cooled, the heatsink was a conveniently sized piece of aluminium.)
 
 ![Screenshot](media/parts.png)
 
