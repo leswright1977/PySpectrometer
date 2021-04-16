@@ -75,6 +75,8 @@ Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) 
 ***TODO***
 Add in a 3 wavelength Calibration functionality to conteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
 
+Also, in a future version add 'stickyness' button, so that tuning curves for Laser dyes can be recorded.
+
 
 ***Other settings***
 
@@ -111,7 +113,7 @@ The spectrum of of a Helium-Neon Discharge.
 ***TODO***
 
 Done! Add a slider to control smoothing. See pyspectrometer-v2.py
-Thic changes the properties of the savgol filter. By default is is set at 7.
+This changes the properties of the savgol filter. By default is is set at 7.
 
 Minimum smoothing applied:
 
