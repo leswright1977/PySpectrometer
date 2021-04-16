@@ -71,6 +71,11 @@ For good accuracy make sure your wavelengths are quite far apart, ideally one at
 
 Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xenon for other types) That will be an excercise for you!
 
+
+***TODO***
+Add in a 3 wavelength Calibration functionality to conteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
+
+
 ***Other settings***
 
 "Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults are fine, but if you find the graph too cluttered, you can play with these values.
@@ -108,7 +113,7 @@ The spectrum of of a Helium-Neon Discharge.
 Done! Add a slider to control smoothing. See pyspectrometer-v2.py
 Thic changes the properties of the savgol filter. By default is is set at 7.
 
-Minimum smotthing applied:
+Minimum smoothing applied:
 
 ![Screenshot](media/maxres.png)
 
