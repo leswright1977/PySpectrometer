@@ -113,7 +113,7 @@ The spectrum of of a Helium-Neon Discharge.
 ***TODO***
 
 Done! Add a slider to control smoothing. See pyspectrometer-v2.py
-This changes the properties of the savgol filter. By default is is set at 7.
+This changes the properties of the Savgol filter. By default is is set at 7.
 
 Minimum smoothing applied:
 
