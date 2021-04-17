@@ -43,7 +43,7 @@ Developed and tested on: 2021-01-11-raspios-buster-armhf-full.img for anything e
 
 Rasberry pi 4 and PiCamera Recommended. 
 
-(Note the software uses the Linux Video Driver, not the Picam Python module. As a consequence it is camera agnotstic, so it will work with some webcams on probably any Linux box (Tested on Debian with a random webcam)) 
+(Note the software uses the Linux Video Driver, not the Picam Python module. As a consequence it will work with some webcams on probably any Linux box (Tested on Debian with a random webcam)) 
 
 First attach the Picam, and enable it with raspi-config
 
