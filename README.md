@@ -75,7 +75,7 @@ Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) 
 ***TODO***
 Add in a 3 wavelength Calibration functionality to conteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
 
-Also, in a future version add 'stickyness' button, so that tuning curves for Laser dyes can be recorded.
+Also, in a future version add 'Peak Hold' button, so that tuning curves for Laser dyes can be recorded.
 
 
 ***Other settings***
