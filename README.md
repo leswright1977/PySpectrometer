@@ -13,7 +13,7 @@ Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for 
 
 Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
-This program, hardware design, and associated information is free for non-commercial use, but if you have gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB
+This program, hardware design, and associated information is free (see Licence), but if you are a commercial entity or have gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB
 
 
 ***Hardware***
