@@ -129,7 +129,7 @@ Maximum smoothing applied:
 
 ***Version 3***
 
-Version 3 has a Peak hold feature to detect transient events, suh as a Laser pulse, or a Camera Flash!
+Version 3 has a Peak hold feature to detect transient events, such as a Laser pulse, or a Camera Flash!
 
 ![Screenshot](media/v3.png)
 
