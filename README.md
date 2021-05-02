@@ -2,6 +2,8 @@
 
 ***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
 
+***This program, hardware design, and associated information is Open Source (see Licence), but if you have gotten value from these kinds of projects and think they are worth something, please consider donating:*** https://paypal.me/leslaboratory?locale.x=en_GB
+
 ***Raspberry Pi Spectrometer***
 
 ![Screenshot](media/fluorescent.png)
@@ -16,9 +18,6 @@ Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for 
 Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 A video of this project specifically is available here: https://www.youtube.com/watch?v=T_goVwwxKE4
-
-***This program, hardware design, and associated information is Open Source (see Licence), but if you are a commercial entity or have just gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB ***
-
 
 ***Hardware***
 
@@ -76,12 +75,6 @@ For good accuracy make sure your wavelengths are quite far apart, ideally one at
 Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xenon for other types) That will be an excercise for you!
 
 
-***TODO***
-Add in a 3 wavelength Calibration functionality to conteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
-
-Also, in a future version add 'Peak Hold' button, so that tuning curves for Laser dyes can be recorded.
-
-
 ***Other settings***
 
 "Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults are fine, but if you find the graph too cluttered, you can play with these values.
@@ -114,11 +107,6 @@ The spectrum of of a Helium-Neon Discharge.
 ![Screenshot](media/henespectrum.png)
 
 
-***TODO***
-
-Done! Add a slider to control smoothing. See pyspectrometer-v2.py
-This changes the properties of the Savgol filter. By default is is set at 7.
-
 Minimum smoothing applied:
 
 ![Screenshot](media/maxres.png)
@@ -137,8 +125,10 @@ Pressing the snapshot button also dumps data to a CSV file. This is far more acc
 
 ![Screenshot](media/csv.png)
 
-***Note: Filenames have colons in them. Real OS's Like Linux have no issue, but you will find that you have to rename these if you want to import to Windows!***
+***Note: Filenames have colons in them. Unix like OS's e.g. Linux have no issue, but you will find that you have to rename these if you want to import to Windows!***
 
+***TODO***
+Add in a 3 wavelength Calibration functionality to conteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
 
 
 
