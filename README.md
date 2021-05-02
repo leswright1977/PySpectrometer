@@ -133,7 +133,7 @@ Version 3 has a Peak hold feature to detect transient events, suh as a Laser pul
 
 ![Screenshot](media/v3.png)
 
-Pressing the snapshot button also dumps data to a CSV file. This is far more accurate data than the graph window, and can be inported into OpenOffice on the Pi.
+Pressing the snapshot button also dumps data to a CSV file. This is far more accurate data than the graph window, and can be imported into OpenOffice on the Pi.
 
 ![Screenshot](media/csv.png)
 
