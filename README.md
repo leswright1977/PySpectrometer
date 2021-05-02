@@ -1,5 +1,7 @@
 # PySpectrometer 2021-03-05
 
+***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
+
 ***Raspberry Pi Spectrometer***
 
 ![Screenshot](media/fluorescent.png)
@@ -124,5 +126,19 @@ Minimum smoothing applied:
 Maximum smoothing applied:
 
 ![Screenshot](media/maxsmooth.png)
+
+***Version 3***
+
+Version 3 has a Peak hold feature to detect transient events, suh as a Laser pulse, or a Camera Flash!
+
+![Screenshot](media/v3.png)
+
+Pressing the snapshot button also dumps data to a CSV file. This is far more accurate data than the graph window, and can be inported into OpenOffice on the Pi.
+
+![Screenshot](media/csv.png)
+
+***Note: Filenames have colons in them. Real OS's Like Linux have no issue, but you will find that you have to rename these if you want to import to Windows!***
+
+
 
 
