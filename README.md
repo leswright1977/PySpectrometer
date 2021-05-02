@@ -17,7 +17,7 @@ Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 A video of this project specifically is available here: https://www.youtube.com/watch?v=T_goVwwxKE4
 
-This program, hardware design, and associated information is Open Source (see Licence), but if you are a commercial entity or have just gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB
+***This program, hardware design, and associated information is Open Source (see Licence), but if you are a commercial entity or have just gotten value from these kinds of projects and think they are worth something, please consider donating: https://paypal.me/leslaboratory?locale.x=en_GB ***
 
 
 ***Hardware***
