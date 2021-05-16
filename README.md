@@ -127,6 +127,11 @@ Pressing the snapshot button also dumps data to a CSV file. This is far more acc
 
 ***Note: Filenames have colons in them. Unix like OS's e.g. Linux have no issue, but you will find that you have to rename these if you want to import to Windows!***
 
+![Screenshot](tuning-curves.png/csv.png)
+
+Tuning curves obtined from a home-made pulsed Dye Laser.
+From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
+
 ***TODO***
 Add in a 3 wavelength Calibration functionality to counteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
 
