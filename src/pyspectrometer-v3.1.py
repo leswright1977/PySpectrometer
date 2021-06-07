@@ -5,6 +5,7 @@ Python Picam/Webcam Spectometer Les Wright May 2021
 Version 3.0 (Peak Hold Added) 
 
 **********************************************
+V 3.1
 Florian Ragwitz
 
 So far I've only implemented a few small features to better support cameras that aren't the Pi Camera, 
