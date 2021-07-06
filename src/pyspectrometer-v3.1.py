@@ -67,16 +67,15 @@ imdata = 'iVBORw0KGgoAAAANSUhEUgAAASwAAACSCAYAAAD/yvfEAAAUqHpUWHRSYXcgcHJvZmlsZS
 class App:
 	DEFAULT_CALIBRATION = ((72, 405), (304, 532))
 
-	def __init__(self, args, window, window_title, video_source=0):
+	def __init__(self, args, window, window_title):
 		self.window = window
 		
 		self.window.geometry("660x570")
 		self.window.resizable (width = False, height = False)
 		self.window.title(window_title)
-		self.video_source = video_source
 		self.def_font = tkinter.font.nametofont("TkDefaultFont")
 		self.def_font.config(size=9)
-		self.vid = MyVideoCapture(args.calibration or App.DEFAULT_CALIBRATION, self.video_source)
+		self.vid = MyVideoCapture(args.calibration or App.DEFAULT_CALIBRATION, args.source)
 
 		#set up the graph points as str initially. 
 		#They will become ints later and we can check!
@@ -260,7 +259,7 @@ class App:
 
 
 class MyVideoCapture:
-	def __init__(self, calibration, video_source=0):
+	def __init__(self, calibration, video_source):
 		self.calibration = calibration
 
 		#settings for peak detect
@@ -506,6 +505,7 @@ def arg_parser() -> argparse.ArgumentParser:
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-c', '--calibration', type=parse_calibration)
+	parser.add_argument('-s', '--source', type=int, default=0)
 	return parser
 
 # Create a window and pass it to the Application object
