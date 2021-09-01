@@ -18,7 +18,7 @@ Resolution/accuracy seems to be +/- a couple of nm or so, pretty reasonable for 
 Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 Videos of this project are here:
-[![Raspberry Pi Spectrometer](https://img.youtube.com/vi//T_goVwwxKE4/0.jpg)](https://www.youtube.com/watch?v=/T_goVwwxKE4 "Raspberry pi Spectrometer")
+[![Raspberry Pi Spectrometer](https://img.youtube.com/vi/T_goVwwxKE4/0.jpg)](https://www.youtube.com/watch?v=/T_goVwwxKE4 "Raspberry pi Spectrometer")
 
 ***Hardware***
 
