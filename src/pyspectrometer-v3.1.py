@@ -77,7 +77,7 @@ class App:
 		self.def_font = tkinter.font.nametofont("TkDefaultFont")
 		self.def_font.config(size=9)
 		self.vid = MyVideoCapture(args.calibration or App.DEFAULT_CALIBRATION,
-                     args.resolution, args.fps, args.video_source)
+                     args.video_source, args.resolution, args.fps)
 
 		#set up the graph points as str initially. 
 		#They will become ints later and we can check!
@@ -261,7 +261,7 @@ class App:
 
 
 class MyVideoCapture:
-	def __init__(self, calibration, resolution=(800,600), fps=25, video_source=0):
+	def __init__(self, calibration, video_source, resolution, fps):
 		self.calibration = calibration
 
 		#settings for peak detect
@@ -509,9 +509,9 @@ def arg_parser() -> argparse.ArgumentParser:
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-c', '--calibration', type=parse_calibration)
-	parser.add_argument('-r', '--resolution', type=parse_resolution)
-	parser.add_argument('-f', '--fps', type=int)
-	parser.add_argument('-v', '--video-source', type=int)
+	parser.add_argument('-r', '--resolution', type=parse_resolution, default=(640,480))
+	parser.add_argument('-f', '--fps', type=int, default=25)
+	parser.add_argument('-v', '--video-source', type=int, default=0)
 	return parser
 
 # Create a window and pass it to the Application object
