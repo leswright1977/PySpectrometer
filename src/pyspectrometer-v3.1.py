@@ -509,6 +509,6 @@ def arg_parser() -> argparse.ArgumentParser:
 	return parser
 
 # Create a window and pass it to the Application object
-App(arg_parser().parse_args(), tkinter.Tk(), "PySpectrometer V3.0")
+App(arg_parser().parse_args(), tkinter.Tk(), "PySpectrometer V3.1")
 
 
