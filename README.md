@@ -48,13 +48,16 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 ![Screenshot](media/pi.png)
 
 
-For the MINIATURE version the hardware is:
+***For the MINIATURE version the hardware is:***
 
-A commercial Diffraction grating Pocket Spectroscope: https://www.patonhawksley.com/product-page/pocket-spectroscope
 
-A Raspberry Pi Camera (with an M12 Thread) https://thepihut.com/products/raspberry-pi-camera-adjustable-focus-5mp
+![Screenshot](media/minispect.png)
 
-M12x0.5 F2.0 Fixed 12mm Focal length Lens: https://www.ebay.co.uk/itm/114551239930
+***A commercial Diffraction grating Pocket Spectroscope:*** https://www.patonhawksley.com/product-page/pocket-spectroscope
+
+***A Raspberry Pi Camera (with an M12 Thread):*** https://thepihut.com/products/raspberry-pi-camera-adjustable-focus-5mp
+
+***M12x0.5 F2.0 Fixed 12mm Focal length Lens:*** https://www.ebay.co.uk/itm/114551239930
 
 ***Installation***
 
