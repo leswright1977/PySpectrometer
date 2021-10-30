@@ -1,6 +1,6 @@
 # PySpectrometer 2021-03-05
 
-**Update 2021-10-30 The software works well on the new Raspbeery Pi Zero 2 W! ***
+***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W! ***
 
 ***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
 
