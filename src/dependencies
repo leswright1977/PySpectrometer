@@ -1,5 +1,5 @@
 sudo apt-get install python3-opencv
 sudo apt-get install python-dev libatlas-base-dev
-pip3 install scipy
-pip3 install peakutils
+pip3 install scipy --no-cache-dir
+pip3 install peakutils --no-cache-dir
 sudo apt-get install python3-pil.imagetk
