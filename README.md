@@ -1,4 +1,5 @@
 # PySpectrometer 2021-03-05
+***V3.1.1 Rotation Slider is here, probably not with the best performace***
 
 ***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W!***
 
@@ -152,6 +153,7 @@ Pressing the snapshot button also dumps data to a CSV file. This is far more acc
 
 Tuning curves obtined from a home-made pulsed Dye Laser.
 From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
+
 
 ***TODO***
 Add in a 3 wavelength Calibration functionality to counteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
