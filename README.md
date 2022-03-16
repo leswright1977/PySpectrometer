@@ -46,7 +46,7 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 
 ![Screenshot](media/pi.png)
 
-## MINIATURE version hardware
+## Miniature hardware version
 
 ![Screenshot](media/minispect.png)
 
