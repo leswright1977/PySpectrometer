@@ -1,8 +1,8 @@
 # PySpectrometer
 
-***Update 2022-03-16 Add 3D models to print base support and camera+lens holders!***
+***Update 2022-03-16: Add 3D models to print base support and camera+lens holders!***
 
-***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W!***
+***Update 2021-10-30: The software works well on the new Raspberry Pi Zero 2 W!***
 
 ***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
 
@@ -68,8 +68,8 @@ https://www.raspberrypi.com/products/camera-module-v2/
 ***A CCTV Lens with Zoom (C-Mount)*** 
 (Search eBay for CCTV C-mount zoom lens 9-22mm)
 
-*** Print 3D models for camera holder and C-mount thread ([Found Here](3Dmodels))
-Tested with PLA at 0.1mm detail for c-mount.stl piece and 0.2mm for base.stl
+*** Print 3D models for camera holder and C-mount thread ([Found Here](3Dmodels)) ***
+Tested with PLA at 0.1mm detail for [c-mount.stl](3Dmodels/c-mount.stl) piece and 0.2mm for [base.stl](3Dmodels/base.stl)
 
 ![3D Hardware](media/3dModelPhoto.png)
 ![3D Design](media/3dModel.png)
@@ -147,7 +147,7 @@ The spectrum of of a Helium-Neon Discharge.
 
 ![Screenshot](media/henespectrum.png)
 
-Testing a 562/40 nM bandpass filter
+Testing a 562/40 nm bandpass filter:
 
 ![Screenshot](media/562filterPhoto.png)
 
