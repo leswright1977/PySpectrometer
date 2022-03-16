@@ -46,9 +46,7 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 
 ![Screenshot](media/pi.png)
 
-
-***For the MINIATURE version the hardware is:***
-
+## MINIATURE version hardware
 
 ![Screenshot](media/minispect.png)
 
@@ -68,7 +66,9 @@ https://www.raspberrypi.com/products/camera-module-v2/
 ***A CCTV Lens with Zoom (C-Mount)*** 
 (Search eBay for CCTV C-mount zoom lens 9-22mm)
 
-*** Print 3D models for camera holder and C-mount thread ([Found Here](3Dmodels)) ***
+*** Print 3D models for camera holder and C-mount thread ***
+([Found Here](3Dmodels))
+
 Tested with PLA at 0.1mm detail for [c-mount.stl](3Dmodels/c-mount.stl) piece and 0.2mm for [base.stl](3Dmodels/base.stl)
 
 ![3D Hardware](media/3dModelPhoto.png)
