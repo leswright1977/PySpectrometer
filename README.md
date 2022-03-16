@@ -1,12 +1,10 @@
-# PySpectrometer 2021-03-05
+# PySpectrometer
 
-***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W!***
+***Update 2022-03-16: Add 3D models to print base support and camera+lens holders!***
+
+***Update 2021-10-30: The software works well on the new Raspberry Pi Zero 2 W!***
 
 ***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
-
-***This program, hardware design, and associated information is Open Source (see Licence), but if you have gotten value from these kinds of projects and think they are worth something, please consider donating:*** https://paypal.me/leslaboratory?locale.x=en_GB
-
-***Raspberry Pi Spectrometer***
 
 ![Screenshot](media/fluorescent.png)
 
@@ -21,14 +19,13 @@ Visit my Youtube Channel at: https://www.youtube.com/leslaboratory
 
 Videos of this project are here:
 
-
 [![Raspberry Pi Spectrometer](https://img.youtube.com/vi/T_goVwwxKE4/0.jpg)](https://www.youtube.com/watch?v=T_goVwwxKE4 "Raspberry pi Spectrometer")
 
 [![Software Update](https://img.youtube.com/vi/dm3woVQp8Xc/0.jpg)](https://www.youtube.com/watch?v=dm3woVQp8Xc "Software Update")
 
 [![MINIATURE Raspberry Pi Spectrometer](https://img.youtube.com/vi/Tw3HJEhE2dI/0.jpg)](https://www.youtube.com/watch?v=Tw3HJEhE2dI "MINIATURE Raspberry pi Spectrometer")
 
-***Hardware***
+## Original Hardware
 
 ![Screenshot](media/scope.png)
 
@@ -49,9 +46,7 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 
 ![Screenshot](media/pi.png)
 
-
-***For the MINIATURE version the hardware is:***
-
+## Miniature hardware version
 
 ![Screenshot](media/minispect.png)
 
@@ -61,7 +56,27 @@ Everything is assembled on an aluminium base (note the Camera is not cooled, the
 
 ***M12x0.5 F2.0 Fixed 12mm Focal length Lens:*** https://www.ebay.co.uk/itm/114551239930
 
-***Installation***
+## Alternative 3D printed Hardware
+
+Alternatively you can use a regular Raspberry pi camera with a C-mount lens on top of this 3D printed design:
+
+***A Regular v2 Raspberry Pi Camera***
+https://www.raspberrypi.com/products/camera-module-v2/
+
+***A CCTV Lens with Zoom (C-Mount)*** 
+(Search eBay for CCTV C-mount zoom lens 9-22mm)
+
+***Print 3D models for camera holder and C-mount thread***
+[Found Here](3Dmodels)
+
+Tested with PLA at 0.1mm detail for [c-mount.stl](3Dmodels/c-mount.stl) piece and 0.2mm for [base.stl](3Dmodels/base.stl)
+
+![3D Hardware](media/3dModelPhoto.png)
+![3D Design](media/3dModel.png)
+
+Do not forget to remove the original camera lens using the [remover tool](3Dmodels/lens-remover.stl)
+
+## Installation
 
 Developed and tested on: 2021-01-11-raspios-buster-armhf-full.img for anything else your milage may vary!
 
@@ -69,10 +84,11 @@ Rasberry pi 4 and PiCamera Recommended.
 
 (Note the software uses the Linux Video Driver, not the Picam Python module. As a consequence it will work with some webcams on probably any Linux box (Tested on Debian with a random webcam)) 
 
-First attach the Picam, and enable it with raspi-config
+First attach the Picam, and enable it with `raspi-config`
 
 Install the dependencies:
 
+```bash
 sudo apt-get install python3-opencv
 
 sudo apt-get install python-dev libatlas-base-dev
@@ -80,9 +96,13 @@ sudo apt-get install python-dev libatlas-base-dev
 pip3 install scipy
 
 pip3 install peakutils
+```
 
+Run the program:
 
-Run the program with: python3 pyspectrometer-v1.py
+```bash
+python3 pyspectrometer-v1.py
+```
 
 
 To calibrate, shine 2 Lasers of known wavelength (He-Ne, Argon or DPSS recommended! (Diode Lasers can have wavelengths that can be +/- several nm!)) at a piece of card in front of the spectrometer.
@@ -96,7 +116,7 @@ For good accuracy make sure your wavelengths are quite far apart, ideally one at
 Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) in front of the Spectrometer, you will have to research the wavelengths of the emission lines (Mercury for Fluorescent tubes, Neon, Argon, Xenon for other types) That will be an excercise for you!
 
 
-***Other settings***
+### Other settings
 
 "Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults are fine, but if you find the graph too cluttered, you can play with these values.
 
@@ -104,7 +124,7 @@ Snapshot, takes a snapshot of the graph section like this:
 ![Screenshot](media/spectrum-09-04-2021-15:19:27.jpg)
 
 
-***Example Spectra***
+## Example Spectra
 
 Here is an example of the spectrum of a fluorescent bulb. The peaks at 405,435,545,650 are Mercury, Europium (one of the lamp phosphors) is visible at ~610nm.
 
@@ -127,6 +147,11 @@ The spectrum of of a Helium-Neon Discharge.
 
 ![Screenshot](media/henespectrum.png)
 
+Testing a 562/40 nm bandpass filter:
+
+![Screenshot](media/562filterPhoto.png)
+
+![Screenshot](media/562filter.png)
 
 Minimum smoothing applied:
 
@@ -136,7 +161,12 @@ Maximum smoothing applied:
 
 ![Screenshot](media/maxsmooth.png)
 
-***Version 3***
+Tuning curves obtined from a home-made pulsed Dye Laser.
+From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
+
+![Screenshot](media/tuning-curves.png)
+
+## Version 3
 
 Version 3 has a Peak hold feature to detect transient events, such as a Laser pulse, or a Camera Flash!
 
@@ -148,13 +178,11 @@ Pressing the snapshot button also dumps data to a CSV file. This is far more acc
 
 ***Note: Filenames have colons in them. Unix like OS's e.g. Linux have no issue, but you will find that you have to rename these if you want to import to Windows!***
 
-![Screenshot](media/tuning-curves.png)
+## TODO
 
-Tuning curves obtined from a home-made pulsed Dye Laser.
-From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
-
-***TODO***
 Add in a 3 wavelength Calibration functionality to counteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
 
+## License and Donations
 
+***This program, hardware design, and associated information is Open Source (see Licence), but if you have gotten value from these kinds of projects and think they are worth something, please consider donating:*** https://paypal.me/leslaboratory?locale.x=en_GB
 
