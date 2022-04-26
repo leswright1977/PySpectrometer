@@ -156,7 +156,8 @@ From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
 
 
 ***TODO***
-Add in a 3 wavelength Calibration functionality to counteract any nonlinearity caused by misalignment of the camera and 'scope. Non Linearity can be solved by rotating the camera on its axis, but it would be nice to just fire and forget.
+Add in a 3 wavelength Calibration functionality to counteract nonlinearity.
+
 
 
 
