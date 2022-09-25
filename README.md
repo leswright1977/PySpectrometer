@@ -1,5 +1,5 @@
 ***Update Sept 25th 2022***
-It seems Raspberry Pi OS Bullseye, has broken everything (camera software has significantly changed, peakutils is broken, scipy is broken, and it looks liek they are preventing installation of the older versions of the OS!...) :-(
+It seems Raspberry Pi OS Bullseye, has broken everything (camera software has significantly changed, peakutils is broken, scipy is broken, and it looks like they are preventing installation of the older versions of the OS!...) :-(
 
 I am in the proceess of a brand new build, which will incorporate all of the features that folk have asked for previously including:
 
