@@ -3,12 +3,14 @@ It seems Raspberry Pi OS Bullseye, has broken everything (camera software has si
 
 I am in the proceess of a brand new build, which will incorporate all of the features that folk have asked for previously including:
 
-Ditching reliance on too many external libraries (scipy and peakutils)
+Ditching reliance on too many external libraries (scipy and peakutils).
 
 Ditching the TK interface, for leaner, more maintainable software. Simple key bindings will allow all the functionaility of previous versions.
-Resizable window for the spectrometer display
+Resizable window for the spectrometer display.
 
-A waterfall display (for those of us measuring changes over time)
+A waterfall display (for those of us measuring changes over time).
+
+Windows compatible filenames for the data.
 
 I may incorporate some other changes as well (time permiting, I will have a look at issues, and see what I can rustle up.
 
