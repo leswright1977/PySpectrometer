@@ -1,3 +1,12 @@
+***Update Sept 27th 2022***
+A new Raspberry Pi OS Bullseye compatible version of this software is now available in src/PySpectrometer-3.2!
+This is a quick ugly hack to simply get this thing working on Bullseye and keep everyone happy, whilst I get time to work on the latest and greatest version of this software.
+
+For now, simply download the contents of 3.2, read the new README file, install and have fun!
+
+
+
+
 ***Update Sept 25th 2022***
 It seems Raspberry Pi OS Bullseye, has broken everything (camera software has significantly changed, peakutils is broken, scipy is broken, and it looks like they are preventing installation of the older versions of the OS!...) :-(
 
