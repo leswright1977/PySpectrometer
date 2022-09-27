@@ -2,7 +2,7 @@ This is a quick hacky fix for Bullseye!
 
 Why? Bullseye has broken the original program in that the Picam has been radically updated.
 It may be possible to re-compile opencv to support it, however this can take several hours to complete!
-Additionally peakutils and scipy appear to have been cimpiled agains a version of numpy that is not installed :-(
+Additionally peakutils and scipy appear to have been compiled against a version of numpy that is not installed :-(
 
 Since PySpectrometer only requires two functions from these libs (savgol filter, and peak indexes) I have included them as a single library specfunctions.py
 This needs to be present for PySpectrometer 3.2 to work!
