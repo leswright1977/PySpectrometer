@@ -2,7 +2,7 @@
 A new Raspberry Pi OS Bullseye compatible version of this software is now available in src/PySpectrometer-3.2!
 This is a quick ugly hack to simply get this thing working on Bullseye and keep everyone happy, whilst I get time to work on the latest and greatest version of this software.
 
-For now, simply download the contents of 3.2, read the new README file, install the dependencied, uset raspi-config to enable legacy camera support and have fun!
+For now, simply download the contents of 3.2, read the new README file, install the dependencies, uses raspi-config to enable legacy camera support and have fun!
 
 
 
