@@ -1,3 +1,8 @@
+
+***PySpectrometer2 released!!***
+Check it out at: https://github.com/leswright1977/PySpectrometer2
+
+
 ***Update Sept 27th 2022***
 A new Raspberry Pi OS Bullseye compatible version of this software is now available in src/PySpectrometer-3.2!
 This is a quick ugly hack to simply get this thing working on Bullseye and keep everyone happy, whilst I get time to work on the latest and greatest version of this software.
