@@ -32,6 +32,7 @@ I may incorporate some other changes as well (time permiting, I will have a look
 
 
 # PySpectrometer 2021-03-05
+***V3.1.1 Rotation Slider is here, probably not with the best performace***
 
 ***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W!***
 
@@ -134,7 +135,7 @@ Alternatively, you may use a Fluorescent tube (or any other gas discharge tube) 
 "Label Peak width" and "Label threshold" set the width of a peak to label, and the level to consider it a peak respectively. The Defaults are fine, but if you find the graph too cluttered, you can play with these values.
 
 Snapshot, takes a snapshot of the graph section like this:
-![Screenshot](media/spectrum-09-04-2021-15:19:27.jpg)
+![Screenshot](media/spectrum-09-04-2021-15_19_27.jpg)
 
 
 ***Example Spectra***
@@ -185,6 +186,7 @@ Pressing the snapshot button also dumps data to a CSV file. This is far more acc
 
 Tuning curves obtined from a home-made pulsed Dye Laser.
 From Left to right: Coumarin-1,Rhodamine 6G, Rhodmine B.
+
 
 ***TODO***
 Add in a 3 wavelength Calibration functionality to counteract nonlinearity.
